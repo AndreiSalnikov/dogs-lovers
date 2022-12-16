@@ -1,0 +1,27 @@
+.dogfacts {
+  margin: 0 auto;
+  max-width: 880px;
+
+  &__fact {
+    color: #fff;
+    min-height: 250px;
+    margin: 0;
+  }
+
+  &__button {
+    min-width: 208px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 18px 24px;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: background-color .4s ease-in-out;
+  }
+
+  &__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
