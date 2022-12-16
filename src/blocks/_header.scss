@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px auto 40px;
+  max-width: 880px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+
+  &__logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  &__links {
+    padding-bottom: 30px;
+  }
+
+  &__link {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    transition: opacity .3s ease-out;
+  }
+
+  &__link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
