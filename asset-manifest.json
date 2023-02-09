@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AndreiSalnikov/dogs-lovers/static/css/main.d9675d20.css",
+    "main.js": "/AndreiSalnikov/dogs-lovers/static/js/main.bcd9215c.js",
+    "static/js/787.a9e05f40.chunk.js": "/AndreiSalnikov/dogs-lovers/static/js/787.a9e05f40.chunk.js",
+    "static/media/logo.svg": "/AndreiSalnikov/dogs-lovers/static/media/logo.2ca2c257ddb9fd5c151770bf061d03ba.svg",
+    "index.html": "/AndreiSalnikov/dogs-lovers/index.html",
+    "main.d9675d20.css.map": "/AndreiSalnikov/dogs-lovers/static/css/main.d9675d20.css.map",
+    "main.bcd9215c.js.map": "/AndreiSalnikov/dogs-lovers/static/js/main.bcd9215c.js.map",
+    "787.a9e05f40.chunk.js.map": "/AndreiSalnikov/dogs-lovers/static/js/787.a9e05f40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9675d20.css",
+    "static/js/main.bcd9215c.js"
+  ]
+}
