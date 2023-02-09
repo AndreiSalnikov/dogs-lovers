@@ -2,11 +2,11 @@ import Header from "./Header"
 import Main from "./Main";
 import {Route, Switch} from "react-router-dom";
 import DogFacts from "./DogFacts"
+import DogPrediction from "./DogPrediction";
 
 function App() {
 
-  return (
-    <>
+  return (<>
       <Header>
       </Header>
       <Switch>
@@ -16,6 +16,10 @@ function App() {
         </Route>
         <Route path="/fact">
           <DogFacts
+          />
+        </Route>
+        <Route path="/ball">
+          <DogPrediction
           />
         </Route>
       </Switch>
