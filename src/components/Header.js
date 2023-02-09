@@ -12,8 +12,8 @@ const Header = () => {
       </Route>
       <div className="header__links">
         <Route path="/">
-          <Link to="/ball" className="header__link">
-            8ball
+          <Link to="/images" className="header__link">
+            Images
           </Link>
         </Route>
         <Route path="/">

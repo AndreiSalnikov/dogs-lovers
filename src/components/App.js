@@ -2,7 +2,7 @@ import Header from "./Header"
 import Main from "./Main";
 import {Route, Switch} from "react-router-dom";
 import DogFacts from "./DogFacts"
-import DogPrediction from "./DogPrediction";
+import DogImages from "./DogImages";
 
 function App() {
 
@@ -18,8 +18,8 @@ function App() {
           <DogFacts
           />
         </Route>
-        <Route path="/ball">
-          <DogPrediction
+        <Route path="/images">
+          <DogImages
           />
         </Route>
       </Switch>

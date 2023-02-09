@@ -1,5 +1,5 @@
 const factUrl = "https://dog-api.kinduff.com/api/facts";
-const predictionUrl = "https://www.eightballapi.com/api"
+const imageUrl = "https://dog.ceo/api/breeds/image/random"
 function checkResponse(res) {
   if (res.ok) {
     return res.json();
@@ -9,13 +9,12 @@ function checkResponse(res) {
 
 export const getFact = () => {
   return fetch(`${factUrl}`, {
-    credentials: 'include',
     method: "GET",
   }).then(checkResponse)
 };
 
 export const getPrediction = () => {
-  return fetch(`${predictionUrl}`, {
+  return fetch(`${imageUrl}`, {
     method: "GET",
   }).then(checkResponse)
 }
